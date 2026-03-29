@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [XYNetWorkConfig shareConfig].env = @"123";
+    [XYNetWorkConfig shareConfig].env = XYNetworkEnvironmentDev;
 }
 
 - (void)didReceiveMemoryWarning

@@ -48,15 +48,7 @@ Pod::Spec.new do |s|
     network.dependency 'YYModel', '~> 1.0'
   end
   
-  # 2. 图片加载模块 XYImageLoader
-  s.subspec 'XYImageLoader' do |image|
-    image.source_files = 'XYCoreKit/Classes/XYImageLoader/**/*.{h,m}'
-    image.public_header_files = 'XYCoreKit/Classes/XYImageLoader/**/*.h'
-    image.dependency 'SDWebImage', '~> 5.19' # 依赖第三方库
-    image.dependency 'SDWebImageWebPCoder', '~> 0.14'
-  end
-  
   # 默认集成所有子模块
-  s.default_subspecs = 'XYNetworking', 'XYImageLoader'
+  s.default_subspecs = 'XYNetworking'
   
 end

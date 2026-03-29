@@ -11,9 +11,6 @@
 #endif
 
 #import "XYCoreKit.h"
-#import "XYImageLoader.h"
-#import "XYImageLoaderConfig.h"
-#import "XYImageTransformer.h"
 #import "XYNetWorkConfig.h"
 #import "XYNetworkManager.h"
 #import "XYNetworkRequest.h"

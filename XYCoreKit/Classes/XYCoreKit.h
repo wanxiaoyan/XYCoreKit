@@ -15,11 +15,5 @@
 #import <XYCoreKit/XYNetworkRespose.h>
 #import <XYCoreKit/XYNetworkManager.h>
 
-// 图片加载模块
-#import <XYCoreKit/XYImageLoaderConfig.h>
-#import <XYCoreKit/XYImageTransformer.h>
-#import <XYCoreKit/XYImageLoader.h>
-
-
 
 #endif /* XYCoreKit_h */

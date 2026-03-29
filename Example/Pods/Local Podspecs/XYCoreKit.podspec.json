@@ -21,10 +21,7 @@
   "requires_arc": true,
   "source_files": "XYCoreKit/Classes/**/*",
   "public_header_files": "XYCoreKit/Classes/XYCoreKit.h",
-  "default_subspecs": [
-    "XYNetworking",
-    "XYImageLoader"
-  ],
+  "default_subspecs": "XYNetworking",
   "subspecs": [
     {
       "name": "XYNetworking",
@@ -36,19 +33,6 @@
         ],
         "YYModel": [
           "~> 1.0"
-        ]
-      }
-    },
-    {
-      "name": "XYImageLoader",
-      "source_files": "XYCoreKit/Classes/XYImageLoader/**/*.{h,m}",
-      "public_header_files": "XYCoreKit/Classes/XYImageLoader/**/*.h",
-      "dependencies": {
-        "SDWebImage": [
-          "~> 5.19"
-        ],
-        "SDWebImageWebPCoder": [
-          "~> 0.14"
         ]
       }
     }
