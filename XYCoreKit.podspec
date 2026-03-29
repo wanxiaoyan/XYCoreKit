@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XYCoreKit'
-  s.version          = '0.3.0' # 版本号，后续迭代需递增，必须和后续的git tag完全一致
+  s.version          = '0.4.0' # 版本号，后续迭代需递增，必须和后续的git tag完全一致
   s.summary          = 'iOS项目核心基础组件库，包含XYNetworking网络层、XYImageLoader图片加载组件'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # 作者信息（修改为你的信息）
   s.author           = { 'wanxiaoyan' => 'wxy1002075730@163.com' }
   # 源码仓库地址+版本tag（填你创建的HYCoreKit代码仓库SSH/HTTPS地址）
-  s.source           = { :git => 'https://github.com/wanxiaoyan/XYCoreKit.git', :tag => '0.3.0'"}
+  s.source           = { :git => 'https://github.com/wanxiaoyan/XYCoreKit.git', :tag => '0.4.0'"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 系统支持配置
