@@ -14,9 +14,9 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - XYCoreKit (0.1.0):
-    - XYCoreKit/XYNetworking (= 0.1.0)
-  - XYCoreKit/XYNetworking (0.1.0):
+  - XYCoreKit (0.3.0):
+    - XYCoreKit/XYNetworking (= 0.3.0)
+  - XYCoreKit/XYNetworking (0.3.0):
     - AFNetworking
     - YYModel (~> 1.0)
   - YYModel (1.0.4)
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  XYCoreKit: ee3573fdc72707c27ab19e24af7f0abe7a6be375
+  XYCoreKit: 8a551c052529a55ea212b3008e3168a93deacdf1
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: bb85342729ed1977f2fa51d49cd3627f2c2c0956
