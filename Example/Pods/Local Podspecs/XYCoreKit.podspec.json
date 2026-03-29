@@ -1,6 +1,6 @@
 {
   "name": "XYCoreKit",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "summary": "iOS项目核心基础组件库，包含XYNetworking网络层、XYImageLoader图片加载组件",
   "description": "企业级iOS基础组件库，提供统一网络层封装、防OOM图片加载组件、公共工具类等能力，支持组件化按需集成",
   "homepage": "https://github.com/wanxiaoyan/XYCoreKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wanxiaoyan/XYCoreKit.git",
-    "tag": "0.4.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "10.0"

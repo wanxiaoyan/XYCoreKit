@@ -48,7 +48,13 @@ Pod::Spec.new do |s|
     network.dependency 'YYModel', '~> 1.0'
   end
   
+  # 1. 网络层模块 XYNetworking
+  s.subspec 'ServiceLib' do |service|
+    service.source_files = 'XYCoreKit/Classes/ServiceLib/**/*.{h,m}'
+    service.public_header_files = 'XYCoreKit/Classes/ServiceLib/**/*.h'
+  end
+  
   # 默认集成所有子模块
-  s.default_subspecs = 'XYNetworking'
+  s.default_subspecs = 'XYNetworking', 'ServiceLib'
   
 end

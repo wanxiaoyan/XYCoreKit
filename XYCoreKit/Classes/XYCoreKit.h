@@ -14,6 +14,8 @@
 #import <XYCoreKit/XYNetworkRequest.h>
 #import <XYCoreKit/XYNetworkRespose.h>
 #import <XYCoreKit/XYNetworkManager.h>
+#import <XYCoreKit/ServiceManager.h>
+#import <XYCoreKit/XYModuleBServiceProtocol.h>
 
 
 #endif /* XYCoreKit_h */
