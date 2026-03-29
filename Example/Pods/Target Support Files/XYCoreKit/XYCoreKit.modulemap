@@ -1,0 +1,6 @@
+framework module XYCoreKit {
+  umbrella header "XYCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

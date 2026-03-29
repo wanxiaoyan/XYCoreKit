@@ -7,6 +7,7 @@
 //
 
 #import "NOViewController.h"
+#import <XYCoreKit/XYCoreKit.h>
 
 @interface NOViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [XYNetWorkConfig shareConfig].env = @"123";
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,56 @@
+{
+  "name": "XYCoreKit",
+  "version": "0.1.0",
+  "summary": "iOS项目核心基础组件库，包含XYNetworking网络层、XYImageLoader图片加载组件",
+  "description": "企业级iOS基础组件库，提供统一网络层封装、防OOM图片加载组件、公共工具类等能力，支持组件化按需集成",
+  "homepage": "https://github.com/wanxiaoyan/XYCoreKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanxiaoyan": "wxy1002075730@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wanxiaoyan/XYCoreKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": "XYCoreKit/Classes/**/*",
+  "public_header_files": "XYCoreKit/Classes/XYCoreKit.h",
+  "default_subspecs": [
+    "XYNetworking",
+    "XYImageLoader"
+  ],
+  "subspecs": [
+    {
+      "name": "XYNetworking",
+      "source_files": "XYCoreKit/Classes/XYNetworking/**/*.{h,m}",
+      "public_header_files": "XYCoreKit/Classes/XYNetworking/**/*.h",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "YYModel": [
+          "~> 1.0"
+        ]
+      }
+    },
+    {
+      "name": "XYImageLoader",
+      "source_files": "XYCoreKit/Classes/XYImageLoader/**/*.{h,m}",
+      "public_header_files": "XYCoreKit/Classes/XYImageLoader/**/*.h",
+      "dependencies": {
+        "SDWebImage": [
+          "~> 5.19"
+        ],
+        "SDWebImageWebPCoder": [
+          "~> 0.14"
+        ]
+      }
+    }
+  ]
+}

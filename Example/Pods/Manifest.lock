@@ -1,0 +1,71 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - libwebp (1.5.0):
+    - libwebp/demux (= 1.5.0)
+    - libwebp/mux (= 1.5.0)
+    - libwebp/sharpyuv (= 1.5.0)
+    - libwebp/webp (= 1.5.0)
+  - libwebp/demux (1.5.0):
+    - libwebp/webp
+  - libwebp/mux (1.5.0):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.5.0)
+  - libwebp/webp (1.5.0):
+    - libwebp/sharpyuv
+  - SDWebImage (5.21.7):
+    - SDWebImage/Core (= 5.21.7)
+  - SDWebImage/Core (5.21.7)
+  - SDWebImageWebPCoder (0.15.0):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - XYCoreKit (0.1.0):
+    - XYCoreKit/XYImageLoader (= 0.1.0)
+    - XYCoreKit/XYNetworking (= 0.1.0)
+  - XYCoreKit/XYImageLoader (0.1.0):
+    - SDWebImage (~> 5.19)
+    - SDWebImageWebPCoder (~> 0.14)
+  - XYCoreKit/XYNetworking (0.1.0):
+    - AFNetworking
+    - YYModel (~> 1.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - XYCoreKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - libwebp
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - YYModel
+
+EXTERNAL SOURCES:
+  XYCoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
+  SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
+  SDWebImageWebPCoder: 0e06e365080397465cc73a7a9b472d8a3bd0f377
+  XYCoreKit: 8d466df532a4b0bc88ef1712fcba0983fdf87d45
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: bb85342729ed1977f2fa51d49cd3627f2c2c0956
+
+COCOAPODS: 1.11.3
