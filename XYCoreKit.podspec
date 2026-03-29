@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # 作者信息（修改为你的信息）
   s.author           = { 'wanxiaoyan' => 'wxy1002075730@163.com' }
   # 源码仓库地址+版本tag（填你创建的HYCoreKit代码仓库SSH/HTTPS地址）
-  s.source           = { :git => 'https://github.com/wanxiaoyan/XYCoreKit.git', :tag => '0.3.0'}
+  s.source           = { :git => 'https://github.com/wanxiaoyan/XYCoreKit.git', :tag => '0.3.0'"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 系统支持配置
