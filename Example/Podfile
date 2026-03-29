@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XYCoreKit_Example' do
+  pod 'XYCoreKit', :path => '../'
+
+  target 'XYCoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
